@@ -1,0 +1,20 @@
+package uz.pdp.validation;
+
+
+//Asadbek Xalimjonov 2/4/22 10:13 PM
+
+public enum ValidationResult {
+
+    SUCCESS,
+    EMAIL_NOT_VALID,
+    PASSWORD_NOT_VALID,
+    PASSWORD_DID_NOT_MATCH,
+    SUCCESSFULLY_REGISTERED,
+    ERROR,
+    EMAIL_OR_PASSWORD_INVALID,
+    SUCCESSFULLY_LOGIN,
+    SESSION_END,
+    SUCCESSFULLY_LOGOUT,
+    SUCCESSFULLY_UPDATED,
+    UPDATING_ERROR
+}
